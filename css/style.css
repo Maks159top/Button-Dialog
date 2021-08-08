@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Bold.eot');
+    src: url('../fonts/Now-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Bold.woff2') format('woff2'),
+    url('../fonts/Now-Bold.woff') format('woff'),
+    url('../fonts/Now-Bold.ttf') format('truetype'),
+    url('../fonts/Now-Bold.svg#Now-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Now-medium';
+    src: url('../fonts/Now-Medium.eot');
+    src: url('../fonts/Now-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Medium.woff2') format('woff2'),
+    url('../fonts/Now-Medium.woff') format('woff'),
+    url('../fonts/Now-Medium.ttf') format('truetype'),
+    url('../fonts/Now-Medium.svg#Now-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+form{
+
+}
+#dialog{
+    max-width: 750px;
+    margin: auto;
+    background-color: #fbfbfb;
+    padding-bottom: 160px;
+
+}
+.ui-widget-header{
+    background-color: #000000;
+    border: none;
+    color: transparent;
+    font-weight: 0;
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Now';
+}
+
+.ui-dialog-title{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Block_Email{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 570px;
+    margin: auto;
+}
+.label_left{
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #363636;
+    font-family: 'Now-medium';
+
+}
+
+.email_input{
+    border-color: #b7b7b7;
+    border-radius: 5px;
+    width: 380px;
+    height: 58px ;
+    font-size: 22px;
+}
+.Block_reset{
+    max-width: 528px;
+    margin: auto;
+    text-align: center;
+}
+.button_reset{
+    border: none;
+    background-color:  #d4d4d4;
+    padding: 20px ;
+    width: 100%;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Now';
+}
+
+.Block_reset p{
+    font-size: 22px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-family: 'Now-medium';
+}
+.Block_reset a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Now';
+
+
+    background-color: #557bcd;
+    text-transform: uppercase;
+    padding: 20px 87px ;
+}
+.Block_reset a i{
+    font-size: 24px;
+    margin-right: 16px;
+
+}

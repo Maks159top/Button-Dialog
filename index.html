@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        password
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#dialog" ).dialog({
+                autoOpen: false,
+                show: {
+                    effect: "blind",
+                    duration: 1000
+                },
+                hide: {
+                    effect: "explode",
+                    duration: 1000,
+
+                }
+            });
+
+            $( "#opener" ).on( "click", function() {
+                $( "#dialog" ).dialog( "open" );
+            });
+
+            $( "#dialog" ).dialog({minWidth:750});
+
+
+        } );
+    </script>
+
+</head>
+<body>
+<div id="dialog" title="FORGOT YOUR PASSWORD?">
+    <form action="" method="get">
+        <div class="Block_Email">
+            <label class="label_left" for="email">ENTER YOUR EMAIL</label>
+            <input class="email_input" id="email" name="email" type="email" >
+        </div>
+        <div class="Block_reset">
+            <button  class="button_reset" type="submit">RESET PASSWORD ?</button>
+
+            <p>or</p>
+
+            <a href="https://ru-ru.facebook.com"><i class="fab fa-facebook-f"></i>Log In Using Facebook</a>
+        </div>
+    </form>
+</div>
+
+<button id="opener">Button Dialog</button>
+
+<script src="https://kit.fontawesome.com/daab012097.js" crossorigin="anonymous"></script>
+</body>
+</html>
